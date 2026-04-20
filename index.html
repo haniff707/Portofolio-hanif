@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Hanif Al-Ghifari</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+            background: linear-gradient(135deg, #4facfe, #00f2fe);
+            color: #333;
+        }
+
+        header {
+            background: linear-gradient(135deg, #6a11cb, #2575fc);
+            color: white;
+            text-align: center;
+            padding: 50px 20px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+        }
+
+        header h1 {
+            font-size: 40px;
+        }
+
+        header p {
+            font-size: 18px;
+            margin-top: 10px;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 900px;
+            margin: 30px auto;
+        }
+
+        .card {
+            background: white;
+            border-radius: 15px;
+            padding: 25px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+        }
+
+        .card h2 {
+            color: #2575fc;
+            margin-bottom: 10px;
+        }
+
+        .badge {
+            display: inline-block;
+            background: linear-gradient(45deg, #ff9a9e, #fad0c4);
+            padding: 8px 12px;
+            border-radius: 20px;
+            margin: 5px;
+            font-size: 14px;
+            font-weight: bold;
+            color: #333;
+        }
+
+        footer {
+            text-align: center;
+            padding: 15px;
+            background: #2575fc;
+            color: white;
+            margin-top: 20px;
+        }
+
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 28px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Hanif Al-Ghifari</h1>
+        <p>Pelajar | Gamer | Siswa Berprestasi</p>
+    </header>
+
+    <!-- Konten Utama -->
+    <div class="container">
+
+        <!-- Tentang Saya -->
+        <div class="card">
+            <h2>👤 Tentang Saya</h2>
+            <p>
+                Halo! Nama saya <b>Hanif Al-Ghifari</b>. Saya adalah seorang pelajar yang memiliki semangat tinggi dalam belajar dan meraih prestasi. Saya dikenal sebagai siswa yang konsisten dan berdedikasi.
+            </p>
+        </div>
+
+        <!-- Data Pribadi -->
+        <div class="card">
+            <h2>📋 Data Pribadi</h2>
+            <p><b>Nama:</b> Hanif Al-Ghifari</p>
+            <p><b>Tempat, Tanggal Lahir:</b> Seri Tanjung, 17 Juli 2012</p>
+        </div>
+
+        <!-- Prestasi -->
+        <div class="card">
+            <h2>🏆 Prestasi</h2>
+            <span class="badge">Juara 2 OSN Tingkat Kabupaten</span>
+            <span class="badge">Selalu Masuk 10 Besar di Kelas</span>
+        </div>
+
+        <!-- Hobi -->
+        <div class="card">
+            <h2>🎮 Hobi</h2>
+            <p>Saya sangat menyukai bermain game. Selain sebagai hiburan, game juga melatih strategi, konsentrasi, dan kemampuan berpikir cepat.</p>
+        </div>
+
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2026 Hanif Al-Ghifari | Portofolio Pribadi</p>
+    </footer>
+
+</body>
+</html>
